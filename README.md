@@ -163,6 +163,7 @@ the library says "S&W M&P Shield Plus".
 The model dictionaries and caliber list ship inside the package (`gunsnprices/data/`). The same data, with listing
 counts and price levels, is published as open datasets:
 
+- MCP server for AI assistants (Claude, Cursor, VS Code), built on this parser: [gunsnprices-mcp](https://github.com/gunsnprices/gunsnprices-mcp)
 - Hugging Face: [gunsnprices/firearm-calibers](https://huggingface.co/datasets/gunsnprices/firearm-calibers),
   [gunsnprices/firearm-models](https://huggingface.co/datasets/gunsnprices/firearm-models)
 - GitHub: [gunsnprices/firearm-datasets](https://github.com/gunsnprices/firearm-datasets)
