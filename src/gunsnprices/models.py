@@ -250,7 +250,9 @@ def _leaf(r: dict, d: dict) -> str:
         if r["gen"]:
             s += " V" if r["gen"] == "V" else " Gen " + r["gen"]
     for c in r["configs"]:
-        if not re.search(r"(?<![a-z0-9])" + re.escape(c) + r"(?![a-z0-9])", s, re.I):
+        # skip a config already spelled out in the name ("Plus Shield" on "S&W M&P Shield Plus")
+        if not re.search(r"(?<![a-z0-9])" + re.escape(c) + r"(?![a-z0-9])", s, re.I) \
+                and not set(re.findall(r"[a-z0-9.&+]+", c.lower())) <= set(re.findall(r"[a-z0-9.&+]+", s.lower())):
             s += " " + c
     needed = (d.get("needed") or {}).get(r["family"], [])
     for f in d.get("feature_order", []):

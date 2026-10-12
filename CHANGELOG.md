@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 (2026-10-12)
+
+- Model names no longer repeat a configuration that is already part of the name:
+  "S&W M&P Shield Plus Plus Shield" is now "S&W M&P Shield Plus".
+
 ## 0.1.0 (2026-10-12)
 
 First release.
