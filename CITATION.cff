@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "gunsnprices: firearm and ammunition product title parser (Python)"
+type: software
+authors:
+  - name: "GunsNPrices"
+    website: "https://gunsnprices.com"
+    email: "app@gunsnprices.com"
+abstract: "Parses US firearm and ammunition product titles into brand, model, caliber, magazine capacity, barrel length, rounds per box and cost per round. The title parser behind GunsNPrices."
+repository-code: "https://github.com/gunsnprices/gunsnprices-python"
+url: "https://gunsnprices.com"
+license: [MIT, CC-BY-4.0]
+version: "0.1.1"
+date-released: "2026-10-12"
+keywords:
+  - firearms
+  - ammunition
+  - caliber
+  - product title parsing
+  - price comparison
