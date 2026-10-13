@@ -8,7 +8,7 @@ from .models import ModelMatch, identify_model, list_brands
 from .parse import ProductInfo, parse_title
 from .specs import barrel_length, cost_per_round, looks_like_ammo, magazine_capacity, rounds_per_box
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __all__ = [
     "parse_title", "ProductInfo",
     "identify_model", "ModelMatch", "list_brands",

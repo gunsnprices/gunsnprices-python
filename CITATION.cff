@@ -10,8 +10,8 @@ abstract: "Parses US firearm and ammunition product titles into brand, model, ca
 repository-code: "https://github.com/gunsnprices/gunsnprices-python"
 url: "https://gunsnprices.com"
 license: [MIT, CC-BY-4.0]
-version: "0.1.1"
-date-released: "2026-10-12"
+version: "0.1.2"
+date-released: "2026-10-13"
 keywords:
   - firearms
   - ammunition

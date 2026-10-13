@@ -3,6 +3,7 @@
 [![PyPI](https://img.shields.io/pypi/v/gunsnprices)](https://pypi.org/project/gunsnprices/)
 [![Python](https://img.shields.io/pypi/pyversions/gunsnprices)](https://pypi.org/project/gunsnprices/)
 [![Tests](https://github.com/gunsnprices/gunsnprices-python/actions/workflows/ci.yml/badge.svg)](https://github.com/gunsnprices/gunsnprices-python/actions/workflows/ci.yml)
+[![Docs](https://readthedocs.org/projects/gunsnprices/badge/?version=latest)](https://gunsnprices.readthedocs.io)
 [![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0%20data-blue)](#license)
 
 Parse firearm and ammunition product titles into structured data: brand, model, caliber, magazine capacity, barrel length,
@@ -21,7 +22,7 @@ and matching the same product across stores starts with reading them reliably. T
 list in this package are the ones the site uses to group listings, so you get the same model names you see on
 gunsnprices.com.
 
-No dependencies, pure Python 3.9+, about 1 ms per title.
+No dependencies, pure Python 3.9+, about 1 ms per title. Documentation: [gunsnprices.readthedocs.io](https://gunsnprices.readthedocs.io).
 
 ## Install
 

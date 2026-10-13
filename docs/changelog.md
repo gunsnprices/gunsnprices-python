@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 (2026-10-13)
+
+- Documentation site: https://gunsnprices.readthedocs.io
+- `CITATION.cff` for citing the package (Zenodo DOI per release).
+- No code changes.
+
 ## 0.1.1 (2026-10-12)
 
 - Model names no longer repeat a configuration that is already part of the name:
