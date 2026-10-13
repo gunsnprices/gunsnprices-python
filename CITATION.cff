@@ -9,7 +9,7 @@ authors:
 abstract: "Parses US firearm and ammunition product titles into brand, model, caliber, magazine capacity, barrel length, rounds per box and cost per round. The title parser behind GunsNPrices."
 repository-code: "https://github.com/gunsnprices/gunsnprices-python"
 url: "https://gunsnprices.com"
-license: [MIT, CC-BY-4.0]
+license: MIT
 version: "0.1.2"
 date-released: "2026-10-13"
 keywords:
