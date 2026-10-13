@@ -1,0 +1,27 @@
+site_name: gunsnprices
+site_description: Parse firearm and ammunition product titles into brand, model, caliber, capacity, barrel length and rounds per box.
+site_url: https://gunsnprices.readthedocs.io/
+repo_url: https://github.com/gunsnprices/gunsnprices-python
+repo_name: gunsnprices/gunsnprices-python
+copyright: GunsNPrices (gunsnprices.com). Code MIT, data CC BY 4.0.
+theme:
+  name: material
+  palette:
+    primary: deep orange
+  features:
+    - content.code.copy
+    - navigation.sections
+nav:
+  - Home: index.md
+  - Usage: usage.md
+  - Accuracy: accuracy.md
+  - Data and license: data.md
+  - Changelog: changelog.md
+  - GunsNPrices: https://gunsnprices.com
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+exclude_docs: |
+  requirements.txt
